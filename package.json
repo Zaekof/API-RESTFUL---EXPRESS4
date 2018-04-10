@@ -1,0 +1,26 @@
+{
+  "name": "apirestful",
+  "version": "1.2.0",
+  "description": "Api simple avec express 4",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "false",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaekof/API-RESTFUL---EXPRESS4.git"
+  },
+  "author": "Zaekof - Skozz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaekof/API-RESTFUL---EXPRESS4/issues"
+  },
+  "homepage": "https://github.com/Zaekof/API-RESTFUL---EXPRESS4#readme"
+}
