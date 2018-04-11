@@ -94,5 +94,8 @@ router.get('/', function(req, res) {
 app.use('/api', router);
 
 /* -- Configuration du démarrage serveur -- */
-app.listen(port);
-console.log('Serveur : ' + port);
+//app.listen(port);
+//console.log('Serveur : ' + port);
+app.listen(port, function() {
+   console.log('Serveur : '); 
+});
