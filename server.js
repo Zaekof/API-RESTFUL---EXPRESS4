@@ -8,7 +8,7 @@ var Bear        = require('./app/models/bear');
 var bodyParser  = require('body-parser');
 
 /* -- Connexion avec Mlab (MongoDB) -- */
-mongoose.connect('mongodb://zkf:zkfpass@ds241489.mlab.com:41489/api-resful');
+mongoose.connect('...');
 
 /* -- Configuration de Body Parser -- */
 app.use(bodyParser.urlencoded({ extended: true }));
